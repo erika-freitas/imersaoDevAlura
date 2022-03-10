@@ -19,4 +19,4 @@ function Calcular() {
     "Sua nota final é " + notaFixada + ". " + resultado;
 }
 
-// resultado = document.getElementById('result').innerHTML = "Atenção! Você precisa preencher todos os campos."
+// #TODO: validar input vazio >>> resultado = document.getElementById('result').innerHTML = "Atenção! Você precisa preencher todos os campos."
