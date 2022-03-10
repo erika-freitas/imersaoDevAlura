@@ -38,36 +38,42 @@ body {
 
 .notas {
   display: flex;
-  flex-direction: column;
-  align-self: center;
-  width: 30vw;
-  gap: 1.5vh;
+  align-content: center;
+  width: 50vw;
+  gap: 4vh;
 }
 
-.container_input{
+.container_input {
   display: flex;
-  flex-direction: row-reverse;
-  align-self: start;
-  align-items: baseline;
-  width: 100%;
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  width: 75%;
+  align-self: center;
 }
 
 .nota_label {
   text-align: left;
-  font-size: medium;
-  width: 50%;
+  font-size: small;
+  width: 100%;
+  color: #ccc;
 }
 
 input {
   padding: 4px;
-  border-radius: 4px;
-  background-color: #fff;
-  border: none;
+  background-color: #000;
+  border: #fada06 1px;
+  border-style: none none solid none;
   height: 4vh;
-  width: 100%;
+  width: 98%;
   font-family: 'Roboto Mono',monospace;
   font-size: medium;
   text-align: center;
+  color: #fff;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgba(250, 218, 6, .3)
 }
 
 #btn-calcular {
@@ -76,14 +82,14 @@ input {
   background-color: #fada06;
   border: none;
   height: 4vh;
-  width: 100%;
+  width: 75%;
   font-family: 'Roboto Mono', monospace;
   font-size: medium;
   text-transform: uppercase;
+  margin-top: 16px;
 }
 
 #result {
   height: 40vh;
   background: no-repeat center;
 }
-
