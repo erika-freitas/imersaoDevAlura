@@ -36,11 +36,12 @@ body {
   right: 10px;
 }
 
-.notas {
+.notas_container {
   display: flex;
-  align-content: center;
-  width: 50vw;
-  gap: 4vh;
+  flex-direction: column;
+  align-items: center;
+  width: 20vw;
+  gap: 2vh;
 }
 
 .container_input {
@@ -64,7 +65,7 @@ input {
   border: #fada06 1px;
   border-style: none none solid none;
   height: 4vh;
-  width: 98%;
+  width: 95%;
   font-family: 'Roboto Mono',monospace;
   font-size: medium;
   text-align: center;

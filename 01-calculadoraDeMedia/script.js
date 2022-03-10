@@ -7,7 +7,11 @@ function Calcular() {
   var notaFinal = (nota1 + nota2 + nota3 + nota4) / 4;
   var notaFixada = notaFinal.toFixed(1);
 
-  if (notaFixada >= 6) {
+  if (document.getElementById("nota1").value.length == 0) {
+    resultado = document.getElementById('result').innerHTML = "Você precisa preencher todos os campos."
+    notaFixada = "inválida"
+    document.getElementById('result').style.backgroundImage="url('https://c.tenor.com/9gXMxFb4sOMAAAAj/stitch-alone.gif')";
+  } else if (notaFixada >= 6) {
     resultado = "Parabéns, você foi aprovade! &#128526";
     document.getElementById('result').style.backgroundImage="url('https://c.tenor.com/kE2G0EC_4f0AAAAj/stitch-happy-new-year.gif')";
   } else {
