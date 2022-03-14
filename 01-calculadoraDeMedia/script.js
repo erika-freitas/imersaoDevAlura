@@ -19,8 +19,20 @@ function Calcular() {
     document.getElementById('result').style.backgroundImage="url('https://c.tenor.com/T1Sjs8hXXLsAAAAj/stitch-cry.gif')";
   }
 
-  document.getElementById("result").innerHTML =
-    "Sua nota final é " + notaFixada + ". " + resultado;
-}
+  document.getElementById("result").innerHTML = "Sua nota final é " + notaFixada + ". " + resultado;
 
-// #TODO: validar input vazio >>> resultado = document.getElementById('result').innerHTML = "Atenção! Você precisa preencher todos os campos."
+}
+/*
+
+#TODO: validar input vazio >>> 
+resultado = document.getElementById('result').innerHTML = "Atenção! Você precisa preencher todos os campos."
+
+#TODO: enter pra enviar resposta
+input.addEventListener("keyup", function(event) {
+      if (event.keyCode === 13) {
+        event.preventDefault();
+        document.getElementById("btn-calcular").click();
+      }
+    });
+
+*/
