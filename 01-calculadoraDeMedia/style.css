@@ -36,15 +36,15 @@ body {
   right: 10px;
 }
 
-.notas_container {
+.notas {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 20vw;
+  width: 20%;
   gap: 2vh;
 }
 
-.container_input {
+.notas__input {
   display: flex;
   flex-direction: column-reverse;
   align-items: flex-start;
@@ -52,7 +52,7 @@ body {
   align-self: center;
 }
 
-.nota_label {
+.notas__label {
   text-align: left;
   font-size: small;
   width: 100%;
@@ -77,10 +77,11 @@ input:focus {
   background-color: rgba(250, 218, 6, .3)
 }
 
-#btn-calcular {
+.btn {
   padding: 4px;
   border-radius: 4px;
   background-color: #fada06;
+  color: #000;
   border: none;
   height: 4vh;
   width: 75%;
@@ -93,4 +94,10 @@ input:focus {
 #result {
   height: 40vh;
   background: no-repeat center;
+}
+
+@media only screen and (max-width: 768px) {
+  .notas {
+    width: 50%;
+  }
 }
