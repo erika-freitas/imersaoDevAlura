@@ -15,6 +15,7 @@ function Calcular() {
 ) {
     notaFixada = "inválida"
     resultado = document.getElementById('result').innerHTML = "Você precisa preencher todos os campos."
+    document.getElementById('result').style.backgroundImage="url('https://c.tenor.com/9gXMxFb4sOMAAAAj/stitch-alone.gif')";
   } else if (notaFixada >= 6) {
     resultado = "Parabéns, você foi aprovade! &#128526";
     document.getElementById('result').style.backgroundImage="url('https://c.tenor.com/kE2G0EC_4f0AAAAj/stitch-happy-new-year.gif')";
