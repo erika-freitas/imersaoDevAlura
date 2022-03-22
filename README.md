@@ -18,3 +18,4 @@
 
 [05 - Tabela de Classificação](https://github.com/erika-freitas/imersaoDevAlura/tree/main/05-tabelaDeClassificacao) / Ranking
 
+[06 - Super Trunfo ](https://github.com/erika-freitas/imersaoDevAlura/tree/main/06-superTrunfo) / Card Game
