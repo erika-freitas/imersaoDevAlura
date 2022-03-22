@@ -6,10 +6,10 @@
 ![css](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)
 ![js](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
 #
-### Almost there projects:
+### Projects:
 [01 - Calculadora de Média](https://github.com/erika-freitas/imersaoDevAlura/tree/main/01-calculadoraDeMedia) / Average Calculator
 
-### Unplublished/Ongoing projects:
+### Unplublished/Ongoing:
 [02 - Conversor de Moeda](https://github.com/erika-freitas/imersaoDevAlura/tree/main/02-conversorDeMoeda) / Currency Converter
 
 [03 - Mentalista](https://github.com/erika-freitas/imersaoDevAlura/tree/main/03-mentalista) / Guess the Number
