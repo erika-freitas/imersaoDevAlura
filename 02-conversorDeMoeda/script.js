@@ -14,7 +14,7 @@ var resultTo;
 var ogAmountValue;
 
 // function inputValidation() {
-//   if (ogAmountInput.match(/^[1-9]\d{0,3}(\.\d{2})?$/)) {
+//   if (ogAmountInput.match(/^[1-9]\d{0,3}(\.\d{2})$/)) {
 //     console.log('aeeeeeeeeee')
 //   } else {
 //     console.log('eita')
