@@ -59,4 +59,6 @@ function clearValue() {
 
 /* 
 #TODO: adicionar validação de campo, regex no input e tratar questão da "," como separador
+
+#TODO: change svg color before/after convertion, reset
 */
