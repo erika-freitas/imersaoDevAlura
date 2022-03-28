@@ -1,6 +1,6 @@
 # Calculadora de Média
-![resultWithNoValue](https://imgur.com/4pfdLBK.gif)
+![resultWithoutValue](https://imgur.com/Jd8T0oz.png)
 
-![resultWithValue1](https://i.imgur.com/wtipohB.gif)
+![resultWithValue1](https://imgur.com/xLyYubF.png)
 
-![resultWithValue2](https://imgur.com/RDOfQkh.gif)
+![resultWithValue2](https://imgur.com/0iMJTdd.png)
