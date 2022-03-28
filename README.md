@@ -9,12 +9,10 @@
 ### Projects:
 [01 - Calculadora de Média](https://github.com/erika-freitas/imersaoDevAlura/tree/main/01-calculadoraDeMedia) / Average Calculator
 
-### Ongoing:
 [02 - Conversor de Moeda](https://github.com/erika-freitas/imersaoDevAlura/tree/main/02-conversorDeMoeda) / Currency Converter
-### Unplublished:
-
+### Ongoing:
 [03 - Mentalista](https://github.com/erika-freitas/imersaoDevAlura/tree/main/03-mentalista) / Guess the Number
-
+### Unplublished:
 [04 - Aluraflix](https://github.com/erika-freitas/imersaoDevAlura/tree/main/04-aluraFlix) / Movie List
 
 [05 - Tabela de Classificação](https://github.com/erika-freitas/imersaoDevAlura/tree/main/05-tabelaDeClassificacao) / Ranking
