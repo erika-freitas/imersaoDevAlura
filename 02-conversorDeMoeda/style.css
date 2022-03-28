@@ -86,7 +86,7 @@ h1 {
   align-items: center;
 }
 
-.main__select-from, .main__select-to, .main__buttons {
+.main__select-from, .main__select-to, .main__btn {
   width: 100%;
   display: flex;
   gap: 1vw;
@@ -103,6 +103,7 @@ select {
   color: var(--text);
   font-weight: 500;
   font-size: .9em;
+  cursor: pointer;
 }
 
 .convert, .reset {
@@ -115,11 +116,16 @@ select {
   font-weight: 500;
 }
 
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
 .convert {
   background-color: var(--bright);
 }
 
-.main__buttons > .reset {
+.reset {
   border: solid 1px var(--bright);
   background-color: transparent;
   color: var(--main-text);
@@ -147,10 +153,70 @@ figcaption > a {
   color: var(--subdue);
 }
 
-/*
-#TODO: add @media 
+/* animation */
 
-#TODO: cursor
+#svgIllustration:not(.animated) {
+  opacity: 0;
+}
 
-#TODO: change svg color before/after convertion, reset
-*/
+#svgIllustration.animated {
+  animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideRight;
+  animation-delay: 0s;
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  }
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    text-align: center;
+  }
+  .main{
+    width: 50%;
+  }
+  .main__input, .main__select, .main__btn{
+    width: 75%;
+    flex-direction: column;
+    gap: 3vw
+  }
+  figure {
+    width: 45%;
+  }
+  .select-currency {
+    width: 27vw;
+  }
+  .main__select-from, .main__select-to {
+    justify-content: end;
+    gap: 3vw
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .main{
+    width: 66%;
+  }
+  .main__input, .main__select, .main__btn{
+    gap: 4vw
+  }
+  figure {
+    width: 75%;
+  }
+  .select-currency {
+    width: 30vw;
+  }
+  .main__select-from, .main__select-to {
+    gap: 4vw
+  }
+}

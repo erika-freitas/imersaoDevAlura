@@ -1,5 +1,11 @@
 // source: https://www.geeksforgeeks.org/currency-converter-in-javascript/
 
+document.addEventListener(
+  'DOMContentLoaded', function () {
+    window.setTimeout(document.getElementById('svgIllustration').classList.add('animated'),1000);
+  }
+  )
+
 const api = "https://api.exchangerate-api.com/v4/latest/USD";
 
 var ogAmount = document.querySelector(".searchBox");
@@ -59,6 +65,4 @@ function clearValue() {
 
 /* 
 #TODO: adicionar validação de campo, regex no input e tratar questão da "," como separador
-
-#TODO: change svg color before/after convertion, reset
 */
