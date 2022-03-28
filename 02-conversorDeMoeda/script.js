@@ -10,6 +10,7 @@ const api = "https://api.exchangerate-api.com/v4/latest/USD";
 
 var ogAmount = document.querySelector(".searchBox");
 var ogAmountInput = document.getElementById("ogAmount").value;
+var amountValidation = parseFloat(document.getElementById("ogAmount").value);
 var convert = document.querySelector(".convert");
 var fromCurrecy = document.querySelector(".from");
 var toCurrecy = document.querySelector(".to");
@@ -20,7 +21,7 @@ var resultTo;
 var ogAmountValue;
 
 // function inputValidation() {
-//   if (ogAmountInput.match(/^[1-9]\d{0,3}(\.\d{2})$/)) {
+//   if (/^[1-9]\d{0,3}(\.\d{2})*$/.test(amountValidation) == true) {
 //     console.log('aeeeeeeeeee')
 //   } else {
 //     console.log('eita')
