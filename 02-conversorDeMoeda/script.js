@@ -22,9 +22,8 @@ var ogAmountValue;
 function inputValidation() {
   var amountValidation = parseFloat(document.getElementById("ogAmount").value);
   if (/^[1-9]\d{0,3}(\.\d{2})*$/.test(amountValidation) == true) {
-    console.log('uhulll');
+    return
   } else {
-    console.log('choraaa');
     document.getElementById("ogAmount").value = ''
     const errorMsg = document.getElementById('errorMsg');
     errorMsg.style.display = "block";
