@@ -17,10 +17,12 @@
     
     <div class="main">
       
-      <div class="main__input">
+      <div id="inputDiv" class="main__input">
         <label for="ogAmount">Valor a converter:</label>
         <input type="text" class="searchBox" placeholder="0.00" id="ogAmount" onblur="inputValidation()">
       </div>
+      
+      <p id="errorMsg">Use apenas números e '.' para separar as casas decimais</p>
       
       <div class="main__select">
         <div class="main__select-from">

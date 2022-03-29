@@ -10,7 +10,6 @@ const api = "https://api.exchangerate-api.com/v4/latest/USD";
 
 var ogAmount = document.querySelector(".searchBox");
 var ogAmountInput = document.getElementById("ogAmount").value;
-var amountValidation = parseFloat(document.getElementById("ogAmount").value);
 var convert = document.querySelector(".convert");
 var fromCurrecy = document.querySelector(".from");
 var toCurrecy = document.querySelector(".to");
@@ -20,13 +19,17 @@ var resultFrom;
 var resultTo;
 var ogAmountValue;
 
-// function inputValidation() {
-//   if (/^[1-9]\d{0,3}(\.\d{2})*$/.test(amountValidation) == true) {
-//     console.log('aeeeeeeeeee')
-//   } else {
-//     console.log('eita')
-//   }
-// }
+function inputValidation() {
+  var amountValidation = parseFloat(document.getElementById("ogAmount").value);
+  if (/^[1-9]\d{0,3}(\.\d{2})*$/.test(amountValidation) == true) {
+    console.log('uhulll');
+  } else {
+    console.log('choraaa');
+    document.getElementById("ogAmount").value = ''
+    const errorMsg = document.getElementById('errorMsg');
+    errorMsg.style.display = "block";
+  }
+}
 
 fromCurrecy.addEventListener('change', (event) => {
   resultFrom = `${event.target.value}`;
@@ -63,7 +66,3 @@ function clearValue() {
   window.location.reload();
   document.getElementsByClassName("finalValue").innerHTML = "";
 };
-
-/* 
-#TODO: adicionar validação de campo, regex no input e tratar questão da "," como separador
-*/
