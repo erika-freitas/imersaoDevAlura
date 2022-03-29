@@ -20,12 +20,12 @@ var resultTo;
 var ogAmountValue;
 
 function inputValidation() {
-  var amountValidation = parseFloat(document.getElementById("ogAmount").value);
-  if (/^[1-9]\d{0,3}(\.\d{2})*$/.test(amountValidation) == true) {
-    return
+  const amountValidation = document.getElementById("ogAmount").value;
+  const errorMsg = document.getElementById('errorMsg');
+  if (/^([1-9]\d{0,3})(?:\.?)(\d{2})*$/.test(amountValidation) == true) {
+    errorMsg.style.display = "none";
   } else {
     document.getElementById("ogAmount").value = ''
-    const errorMsg = document.getElementById('errorMsg');
     errorMsg.style.display = "block";
   }
 }
