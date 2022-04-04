@@ -7,9 +7,9 @@
 ![js](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
 #
 ### Projects:
-- [ x ] [01 - Calculadora de Média](https://github.com/erika-freitas/imersaoDevAlura/tree/main/01-calculadoraDeMedia) / Average Calculator
+- [x] [01 - Calculadora de Média](https://github.com/erika-freitas/imersaoDevAlura/tree/main/01-calculadoraDeMedia) / Average Calculator
 
-- [ x ] [02 - Conversor de Moeda](https://github.com/erika-freitas/imersaoDevAlura/tree/main/02-conversorDeMoeda) / Currency Converter
+- [x] [02 - Conversor de Moeda](https://github.com/erika-freitas/imersaoDevAlura/tree/main/02-conversorDeMoeda) / Currency Converter
 ### Ongoing:
 [03 - Mentalista](https://github.com/erika-freitas/imersaoDevAlura/tree/main/03-mentalista) / Guess the Number
 
