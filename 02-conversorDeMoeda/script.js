@@ -20,8 +20,8 @@ var resultTo;
 var ogAmountValue;
 
 function inputValidation() {
-  const amountValidation = document.getElementById("ogAmount").value;
-  const errorMsg = document.getElementById('errorMsg');
+  let amountValidation = document.getElementById("ogAmount").value;
+  let errorMsg = document.getElementById('errorMsg');
   if (/^([1-9]\d{0,3})(?:\.?)(\d{2})*$/.test(amountValidation) == true) {
     errorMsg.style.display = "none";
   } else {
