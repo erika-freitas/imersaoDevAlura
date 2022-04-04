@@ -7,14 +7,18 @@
 ![js](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
 #
 ### Projects:
-[01 - Calculadora de Média](https://github.com/erika-freitas/imersaoDevAlura/tree/main/01-calculadoraDeMedia) / Average Calculator
+- [ x ] [01 - Calculadora de Média](https://github.com/erika-freitas/imersaoDevAlura/tree/main/01-calculadoraDeMedia) / Average Calculator
 
-[02 - Conversor de Moeda](https://github.com/erika-freitas/imersaoDevAlura/tree/main/02-conversorDeMoeda) / Currency Converter
+- [ x ] [02 - Conversor de Moeda](https://github.com/erika-freitas/imersaoDevAlura/tree/main/02-conversorDeMoeda) / Currency Converter
 ### Ongoing:
 [03 - Mentalista](https://github.com/erika-freitas/imersaoDevAlura/tree/main/03-mentalista) / Guess the Number
-### Unplublished:
-[04 - Aluraflix](https://github.com/erika-freitas/imersaoDevAlura/tree/main/04-aluraFlix) / Movie List
 
-[05 - Tabela de Classificação](https://github.com/erika-freitas/imersaoDevAlura/tree/main/05-tabelaDeClassificacao) / Ranking
+### # TODOs:
 
-[06 - Super Trunfo ](https://github.com/erika-freitas/imersaoDevAlura/tree/main/06-superTrunfo) / Card Game
+- [ ] [04 - Aluraflix](https://github.com/erika-freitas/imersaoDevAlura/tree/main/04-aluraFlix) / Movie List
+
+- [ ] [05 - Tabela de Classificação](https://github.com/erika-freitas/imersaoDevAlura/tree/main/05-tabelaDeClassificacao) / Ranking
+
+- [ ] [06 - Super Trunfo ](https://github.com/erika-freitas/imersaoDevAlura/tree/main/06-superTrunfo) / Card Game
+
+- [ ] Refatoração dos projetos
